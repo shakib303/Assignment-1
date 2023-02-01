@@ -45,8 +45,53 @@ body {
     padding: 15px 25px;
     border-radius: 10px;
     border-style: none;
-    
+
 }
-.btn-primary a{
+
+.btn-primary a {
     text-decoration: none;
+}
+
+.previous-failures {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    padding: 130px 150px;
+}
+
+.person-image {
+    width: 50%;
+    margin-right: 150px;
+
+}
+
+.failure-brief {
+    width: 50%;
+}
+
+/*for gap between paragaph and ul*/
+.failure-brief p {
+    margin-bottom: 16px;
+    color: #444343;
+}
+
+.failure-brief h2 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.failure-list {
+    list-style: none;
+
+}
+
+span {
+    color: #16D887;
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    padding-right: 10px;
 }
