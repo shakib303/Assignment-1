@@ -41,7 +41,6 @@ body {
     font-size: 20px;
     line-height: 23px;
     color: #005FAC;
-    text-decoration: dotted;
     padding: 15px 25px;
     border-radius: 10px;
     border-style: none;
@@ -50,6 +49,7 @@ body {
 
 .btn-primary a {
     text-decoration: none;
+    color: #005FAC;
 }
 
 .previous-failures {
@@ -57,7 +57,7 @@ body {
     text-align: justify;
     align-items: center;
     justify-content: center;
-    padding: 130px 150px;
+   margin: 130px 100px;
 }
 
 .person-image {
@@ -70,7 +70,7 @@ body {
     width: 50%;
 }
 
-/*for gap between paragaph and ul*/
+/* for gap between paragaph and ul */
 .failure-brief p {
     margin-bottom: 16px;
     color: #444343;
@@ -94,4 +94,53 @@ span {
     height: 24px;
     font-size: 20px;
     padding-right: 10px;
+}
+
+.plan-section {
+    text-align: center;
+    margin: 10px 100px;
+}
+
+.plan-section h2 {
+    color: #151414;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.what-to-do {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-title-image{
+    margin-bottom: 20px;
+}
+
+.plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+
+}
+
+.plan-description {
+    color: #737272;
+    padding-top: 10px;
+}
+/* banner section */
+.banner-section{
+    margin: 110px 100px;
+    background-image:url(images/gradient1.png) , url(../images/watch.png) ;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.banner-section h3{
+    color: #FFFFFF;
+    font-size: 40px;
+    padding: 50px ;
+}
+.banner-section button{
+    margin: -10px 50px 60px;
 }
