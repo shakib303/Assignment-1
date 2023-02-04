@@ -57,7 +57,7 @@ body {
     text-align: justify;
     align-items: center;
     justify-content: center;
-   margin: 130px 100px;
+    margin: 130px 100px;
 }
 
 .person-image {
@@ -113,7 +113,7 @@ span {
     justify-content: space-around;
 }
 
-.plan-title-image{
+.plan-title-image {
     margin-bottom: 20px;
 }
 
@@ -129,18 +129,104 @@ span {
     color: #737272;
     padding-top: 10px;
 }
+
 /* banner section */
-.banner-section{
+.banner-section {
     margin: 110px 100px;
-    background-image:url(images/gradient1.png) , url(../images/watch.png) ;
+    background-image: url(images/gradient1.png), url(../images/watch.png);
     background-repeat: no-repeat;
     border-radius: 15px;
 }
-.banner-section h3{
+
+.banner-section h3 {
     color: #FFFFFF;
     font-size: 40px;
-    padding: 50px ;
+    padding: 50px;
 }
-.banner-section button{
+
+.banner-section button {
     margin: -10px 50px 60px;
+}
+
+/* table section */
+
+.table-heading {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+table {
+    width: 84%;
+    margin: 20px 100px;
+    text-align: center;
+    justify-content: center;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+td,
+th {
+    border: 1px solid lightgray;
+    padding: 5px 20px;
+}
+
+th {
+    background-color: rgba(38, 132, 210, 0.986);
+}
+
+/* table row background */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    text-align: left;
+    gap: 300px;
+    padding: 130px 100px;
+    background-color: black;
+    color: #FFFFFF;
+    justify-content: space-around;
+
+}
+
+footer h3 {
+    color: #F8F8F8;
+    font-size: 30px;
+    align-items: left;
+    padding-bottom: 20px;
+}
+
+.contact-p {
+    line-height: 26px;
+}
+
+.contact-mail-number {
+    margin: 24px 0px;
+    line-height: 30px;
+}
+
+.subscription input[type="email"] {
+    margin-bottom: 24px;
+    font-size: 18px;
+    border: 0;
+    width: 100%;
+    padding: 10px 20px;
+
+}
+
+input {
+    height: 50px;
+}
+
+.contact-icon a {
+    text-decoration: none;
+    margin-right: 17px;
 }
