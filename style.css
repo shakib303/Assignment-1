@@ -131,10 +131,17 @@ span {
 }
 
 /* banner section */
+
+/* background-image: linear-gradient(to right,rgba(0, 95, 172,1),rgba(0, 95, 172, 0)), url(watch.png);
+    background-repeat: no-repeat;
+    background-blend-mode:inherit;
+    height: 40vh;
+    width: 80%;
+    This style can also used for background .i put here for bonus  */
 .banner-section {
     margin: 110px 100px;
-    background-image: url(images/gradient1.png), url(images/watch.png);
-    background-repeat: no-repeat;
+    background-image: url(images/gradient1.png), url(images/watch.png); 
+    background-repeat: no-repeat, no-repeat;
     border-radius: 15px;
 }
 
@@ -219,6 +226,7 @@ footer h3 {
     border: 0;
     width: 100%;
     padding: 10px 20px;
+    border-radius: 10px;
 
 }
 
